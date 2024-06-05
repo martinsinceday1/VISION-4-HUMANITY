@@ -1323,34 +1323,3 @@
 }
 
 
-
-
-
-
-
-/* Media query for mobile */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .menu-icon {
-        display: flex;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .nav-links li {
-        text-align: center;
-        width: 100%;
-    }
-}
-
-/* Hover effect for dropdown */
-.nav-links a:hover {
-    background: darkgreen;
-}
